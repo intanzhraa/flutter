@@ -1,5 +1,9 @@
+import 'package:belajar_flutter/latihanrow.dart';
 import 'package:flutter/material.dart';
 import 'container_widget.dart';
+import 'column_widget.dart';
+import 'rowcolumn.dart';
+import 'latihanrow.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,13 +20,13 @@ class MyApp extends StatelessWidget {
     title: "Belajar Flutter",
     home: Scaffold(
     appBar: AppBar(
-      title: Text("Belajar"),
+      title: Text("intanzhraa"),
       backgroundColor: Colors.lightBlue,
       centerTitle: true,
     ),
     body: Container(
-      color: Colors.red,
-      child: ContainerWidget(
+      color: Colors.white,
+      child: LatihanRow(
       ),
       ),
     ),
@@ -46,7 +50,7 @@ class TextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      "prajurittt",
+      "XII RPL 2",
       style: TextStyle(
         fontSize: 24,
         fontWeight: FontWeight.bold,
