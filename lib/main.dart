@@ -4,6 +4,11 @@ import 'container_widget.dart';
 import 'column_widget.dart';
 import 'rowcolumn.dart';
 import 'latihanrow.dart';
+import 'iconwidget.dart';
+import 'listviewbasic.dart';
+import 'listviewbuilder.dart';
+import 'listviewseparated.dart';
+import 'persib.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,13 +25,13 @@ class MyApp extends StatelessWidget {
     title: "Belajar Flutter",
     home: Scaffold(
     appBar: AppBar(
-      title: Text("intanzhraa"),
+      title: Text("latihan persib"),
       backgroundColor: Colors.lightBlue,
       centerTitle: true,
     ),
     body: Container(
       color: Colors.white,
-      child: LatihanRow(
+      child: Persib(
       ),
       ),
     ),
